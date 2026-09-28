@@ -1,5 +1,7 @@
+version: 2026.232.0520
 check-cross-local-driver-layer:
     candy:
+        version: 2026.156.1530
         description: |
             Minimal host (target:local) venue for a cross-deployment local DRIVER member
             Establishes a host venue for the check-cross-local-http bed's local
