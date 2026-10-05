@@ -7,7 +7,7 @@ The `check-cross-local-driver-layer` candy establishes a **host venue** for the
 bed's local **DRIVER** member: a `command:` check placed under this member runs on
 the host against a **separate** pod SUBJECT — a cross-kind pair (local driver,
 pod subject). It is USER-level only (a marker under `$HOME`, no root, no sudo, no
-gates) so `bringUpMembers` applies it unattended via `charly fleet add`.
+gates) so `bringUpMembers` applies it unattended via `charly deploy add`.
 
 The candy is a **fixture**: it ships no user-facing service and has no `skill:`
 entity. Its acceptance steps live in its `plan:` (`mkdir:` + `write:` run steps,
